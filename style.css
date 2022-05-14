@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    width: 325px;
+    margin:35px auto 0px auto ;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+    padding: 22px;
+    padding-left: 25px;
+
+    
+}
+.forms{
+    padding: 15px;
+    padding-left: 0px;
+   
+}
+.forms input{
+    width: 100%;
+    height:35px;
+    padding: 5px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.sign{
+    margin-top: 15px;
+    padding:5px;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #0a66C2;
+    color: #fff;
+    border-style: none;
+    
+   
+}
+.sign:hover{
+    cursor: pointer;
+    background-color: #084077;
+}
+.google{
+    margin-top: 15px;
+    padding:5px;
+    width: 100%;
+    height: 39px;
+    border-radius: 19px;
+    background-color: #fff;
+    font-size: 15px;
+}
+.apple{
+    margin-top: 15px;
+    padding:5px;
+    width: 100%;
+    height: 39px;
+    border-radius: 19px;
+    background-color: #fff;
+    font-size: 15px;
+}
+.final{
+    text-align: center;
+    margin:25px;
+}
+.hr{
+    margin: 10px;
+}
+
+.hr::before{
+    content: " ";
+    width:50%;
+    height: 1px;
+    background-color: rgb(128,128,128,0.6);
+    margin-top:10px;
+
+}
+.hr::after{
+    content: " ";
+    width:50%;
+    height: 1px;
+    background-color: rgb(128,128,128,0.6);
+    margin-top:10px;
+
+}
+.hr{
+    display: flex;
+    
+}
+.container a{
+    
+    text-decoration: none;
+    justify-content: center;
+    font-size: 19px;
+    
+}
+
